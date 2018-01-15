@@ -1,0 +1,18 @@
+
+<view>
+  <swiper vertical="true" indicator-dots="true" autoplay="true" interval = "2000">
+
+    <swiper-item>
+      <image src='/images/lbj_0.jpeg' ></image>
+    </swiper-item>
+
+    <swiper-item class='swiperItem_1'>
+      <image src='/images/lbj_1.jpeg'></image>
+    </swiper-item>
+
+    <swiper-item class='swiperItem_2'>
+      <image src='/images/lbj_2.jpeg'></image>
+    </swiper-item>
+  </swiper>
+
+</view>

@@ -1,0 +1,8 @@
+.container{
+
+}
+
+text{
+    font-family: MicroSoft YaHei;
+    font-size: 32rpx;
+}

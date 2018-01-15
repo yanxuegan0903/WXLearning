@@ -1,0 +1,9 @@
+
+<view class='view1'>
+  <image class = "image_icon" src = "/images/exp.png"></image>
+  <text class='text1'>那个逗号，</text>
+  <view class='view2'>
+    <text class='text2'><text style = "color:red">开启</text>小程序之旅</text>
+  </view>
+</view>
+
