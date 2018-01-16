@@ -11,23 +11,23 @@
       <image src='/images/lbj_2.jpeg'></image>
     </swiper-item>
   </swiper>
-
-  <view class='post-container'>
-    <view class='post-author-date'>
-      <image wx:if="{{img_condition}}" class='post-author' src='{{post_author_img}}'></image>
-      <text class='post-date'>{{post_date}}</text>
+  
+  <block wx:for="{{post_key}}" wx:for-item="item">
+    <view class='post-container'>
+      <view class='post-author-date'>
+        <image wx:if="{{item.img_condition}}" class='post-author' src='{{item.post_author_img}}'></image>
+        <text class='post-date'>{{item.post_date}}</text>
+      </view>
+      <text class='post-title'>{{item.post_title}}</text>
+      <image class='post-image' src='{{item.post_img}}'></image>
+      <text class='post-content'>{{item.post_content}}</text>
+      <view class='post-like'>
+        <image class='post-like-image' src='/images/collect.png'></image>
+        <text class='post-like-font'>{{item.post_like}}</text>
+        <image class='post-like-image' src='/images/chat.png'></image>
+        <text class='post-like-font'>{{item.post_read}}</text>
+      </view>
     </view>
-    <text class='post-title'>{{post_title}}</text>
-    <image class='post-image' src='{{post_img}}'></image>
-    <text class='post-content'>{{post_content}}</text>
-    <view class='post-like'>
-      <image class='post-like-image' src='/images/collect.png'></image>
-      <text class='post-like-font'>{{post_like}}</text>
-      <image class='post-like-image' src='/images/chat.png'></image>
-      <text class='post-like-font'>{{post_read}}</text>
-    </view>
-  </view>
-
-
+  </block>
 
 </view>
