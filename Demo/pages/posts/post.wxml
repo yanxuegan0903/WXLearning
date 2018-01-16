@@ -14,17 +14,17 @@
 
   <view class='post-container'>
     <view class='post-author-date'>
-      <image class='post-author' src='/images/user-icon.png'></image>
-      <text class='post-date'>Nov 25 2016</text>
+      <image wx:if="{{img_condition}}" class='post-author' src='{{post_author_img}}'></image>
+      <text class='post-date'>{{post_date}}</text>
     </view>
-    <text class='post-title'>正是虾肥蟹壮时</text>
-    <image class='post-image' src='/images/fan_1.jpeg'></image>
-    <text class='post-content'>“菊黄蟹正肥，品尝秋之味”，徐志摩把“看初花的荻卢”和“到楼外楼吃蟹”，并列为秋天来杭州不能错过的风雅之事，用林妹妹的话讲是“蟹封嫩于双双满”。</text>
+    <text class='post-title'>{{post_title}}</text>
+    <image class='post-image' src='{{post_img}}'></image>
+    <text class='post-content'>{{post_content}}</text>
     <view class='post-like'>
       <image class='post-like-image' src='/images/collect.png'></image>
-      <text class='post-like-font'>92</text>
+      <text class='post-like-font'>{{post_like}}</text>
       <image class='post-like-image' src='/images/chat.png'></image>
-      <text class='post-like-font'>65</text>
+      <text class='post-like-font'>{{post_read}}</text>
     </view>
   </view>
 
