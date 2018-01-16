@@ -15,6 +15,8 @@ Page({
    */
   onLoad: function (options) {
 
+    // this.data.postList = postData.postList
+    
     this.setData({
       post_key: postData.postList,
     });
