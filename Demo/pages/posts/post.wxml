@@ -12,11 +12,11 @@
     </swiper-item>
   </swiper>
   
-  <block wx:for="{{post_key}}" wx:for-item="item">
+  <block wx:key="" wx:for="{{post_key}}" wx:for-item="item" wx:for-index="index" >
     <view class='post-container'>
       <view class='post-author-date'>
         <image wx:if="{{item.img_condition}}" class='post-author' src='{{item.post_author_img}}'></image>
-        <text class='post-date'>{{item.post_date}}</text>
+        <text class='post-date'>{{item.post_date}} {{index}}</text>
       </view>
       <text class='post-title'>{{item.post_title}}</text>
       <image class='post-image' src='{{item.post_img}}'></image>
