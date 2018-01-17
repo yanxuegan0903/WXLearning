@@ -10,7 +10,8 @@ var local_database = [
     post_read: '68',
     img_condition: true,
     post_img: '/images/fan_1.jpeg',
-    post_author_img: '/images/user-icon.png'
+    post_author_img: '/images/user-icon.png',
+    postid:0,
   },
   {
     post_date: 'Sep 25 2016',
@@ -20,7 +21,8 @@ var local_database = [
     post_read: '68',
     img_condition: true,
     post_img: '/images/fan_1.jpeg',
-    post_author_img: '/images/user-icon.png'
+    post_author_img: '/images/user-icon.png',
+    postid: 1,
   },
 ]
 
