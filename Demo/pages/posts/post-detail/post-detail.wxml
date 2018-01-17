@@ -1,1 +1,21 @@
-<text>测试 </text>
+<view class='detail-container'>
+  <image  class='detail-image' src='{{postData.headImgSrc}}'></image>
+  <image class='detail-music' src='/images/音乐.png'></image>
+  <view class='detail-icon-name-date'>
+    <image class='detail-icon' src='/images/user-icon.png'></image>
+    <text  class='detail-name'>{{postData.author}}</text>
+    <text class='detail-action'>发表于</text>
+    <text class='detail-date'>{{postData.date_time}}</text>
+  </view>
+  <text class='detail-title'>{{postData.post_title}}</text>
+  <view class='detail-tool'>
+    <view class='detail-collection-share'>
+      <image class='detail-share' src='/images/分享.png'></image>
+      <image class='detail-share' src='/images/收藏.png'></image>
+    </view>
+    <view class='detail-horizon'></view>
+  </view>
+
+
+  <text class='detail-content'>{{postData.detail}}</text>
+</view>

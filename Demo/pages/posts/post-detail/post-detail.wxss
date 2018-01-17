@@ -1,0 +1,95 @@
+.detail-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-image {
+  width: 100%;
+  height: 500rpx;
+}
+
+.detail-music{
+  width: 100rpx;
+  height: 100rpx;
+  /* 绝对定位 脱离文档流 */
+  position: absolute;
+  left: 50%;
+  margin-left: -50rpx;
+  opacity: 0.5;
+  margin-top: 200rpx;
+}
+
+.detail-icon-name-date {
+  direction: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+
+.detail-icon {
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+
+.detail-name {
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+
+.detail-action {
+  font-size: 22rpx;
+  margin-left: 20rpx;
+}
+
+.detail-date {
+  font-size: 26rpx;
+  margin-left: 20rpx;
+}
+
+.detail-title {
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  margin-bottom: 30rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+}
+
+.detail-tool{
+  margin-top: 20rpx;
+}
+
+.detail-collection-share {
+  direction: flex;
+  flex-direction: row;
+}
+
+.detail-share {
+  float: right;
+  margin-right: 40rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.detail-horizon{
+  width: 700rpx;
+  height: 2rpx;
+  background-color: #e5e5e5;
+  vertical-align: middle;
+  /* 相对定位 处于图标下方 */
+  position: relative; 
+  margin-left: 25rpx;
+  top: 35rpx;
+  z-index: -99;
+}
+
+.detail-content {
+  font-size: 26rpx;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  margin-top: 30rpx;
+  margin-bottom: 10rpx;
+  letter-spacing: 2rpx;
+  line-height: 40rpx;
+
+}
