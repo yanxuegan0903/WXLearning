@@ -11,7 +11,8 @@
   <view class='detail-tool'>
     <view class='detail-collection-share'>
       <image class='detail-share' src='/images/分享.png'></image>
-      <image class='detail-share' src='/images/收藏.png'></image>
+      <image wx:if="{{collected}}" catchtap='onCollectedTap' class='detail-share' src='/images/收藏.png'></image>
+      <image wx:else class='detail-share' catchtap='onCollectedTap' src='/images/未收藏.png'></image>
     </view>
     <view class='detail-horizon'></view>
   </view>

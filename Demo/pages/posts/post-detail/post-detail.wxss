@@ -9,8 +9,8 @@
 }
 
 .detail-music{
-  width: 100rpx;
-  height: 100rpx;
+  width: 70rpx;
+  height: 70rpx;
   /* 绝对定位 脱离文档流 */
   position: absolute;
   left: 50%;
