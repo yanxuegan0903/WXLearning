@@ -31,7 +31,6 @@ Page({
       url: 'post-detail/post-detail?id='+postid,
     })
 
-
   },
   onSwiperTap:function(event){
     var postid = event.target.dataset.postid;

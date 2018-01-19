@@ -46,8 +46,29 @@ var local_database = [
       title: '齐秦-夜夜夜夜'
     }
   },
-]
+];
+
+var local_movies = [
+  {
+    "title":"正在热映",
+    "more":"更多",
+    "image_go":"/images/箭头.png"
+  },
+  {
+    "title": "即将上映",
+    "more": "更多",
+    "image_go": "/images/箭头.png"
+  },
+  {
+    "title": "全球榜",
+    "more": "更多",
+    "image_go": "/images/箭头.png"
+  }
+];
+
+
 
 module.exports = {
-  postList: local_database
+  postList: local_database,
+  local_movies: local_movies
 }

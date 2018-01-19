@@ -1,12 +1,34 @@
 {
   "pages": [
-    "pages/welcome/welcome",
+    "pages/movies/movies",
     "pages/posts/post",
+    "pages/welcome/welcome",
     "pages/posts/post-detail/post-detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#405f80",
     "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#456123",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath": "/images/电影未选中.png",
+        "selectedIconPath": "/images/电影选中.png"
+      },
+      {
+        "pagePath": "pages/posts/post",
+        "text": "文章",
+        "iconPath": "/images/文章未选中.png",
+        "selectedIconPath": "/images/文章选中.png"
+      }
+    ]
   }
 }
