@@ -41,7 +41,11 @@ Page({
       wx.setStorageSync("posts_Collected", postsCollected);
     }
 
+    //  监听音乐播放器
 
+    wx.onBackgroundAudioPlay(this.onPlay)
+    wx.onBackgroundAudioPause(this.onPause)
+    wx.onBackgroundAudioStop(this.onStop)
   },
 
   //  点击收藏
@@ -93,13 +97,10 @@ Page({
       console.log('正在播放 来暂停');
       wx.pauseBackgroundAudio()
 
-      this.setBackgroundPlayStatus(false)
-
     } else {
       console.log('没有播放 来播放');
 
       var postData = postsData.postList[this.data.currentPostid];
-
 
       wx.playBackgroundAudio({
         dataUrl: postData.music.src,
@@ -107,13 +108,8 @@ Page({
         coverImgUrl: postData.music.coverImgUrl
       })
 
-      this.setBackgroundPlayStatus(true)
     }
 
-  },
-
-  onPlay: function () {
-    console.log("11111");
   },
 
   /**
@@ -121,7 +117,6 @@ Page({
    */
   onHide: function () {
     wx.stopBackgroundAudio()
-    this.setBackgroundPlayStatus(false)
   },
 
   /**
@@ -129,17 +124,31 @@ Page({
    */
   onUnload: function () {
     wx.stopBackgroundAudio()
-    this.setBackgroundPlayStatus(false)
-
   },
 
+
+  onPlay:function(){
+    console.log('播放')
+    this.setBackgroundPlayStatus(true)
+  },
+
+  onPause:function(){
+    console.log('暂停')
+    this.setBackgroundPlayStatus(false)
+  },
+
+  onStop:function(){
+    console.log('停止')
+    this.setBackgroundPlayStatus(false)
+  },
 
   setBackgroundPlayStatus: function (status) {
     this.data.playMusicStatus = status
     this.setData({
       playMusicState: status
     })
-  }
+  },
+
 
 
 })
