@@ -2,15 +2,15 @@
 
 
 <view>
-  <swiper indicator-dots="true" autoplay="true" interval = "2000">
+  <swiper catchtap='onSwiperTap' indicator-dots="true" autoplay="true" interval = "2000">
     <swiper-item>
-      <image src='/images/lbj_0.jpeg' ></image>
+      <image src='/images/lbj_0.jpeg' data-postId="0"></image>
     </swiper-item>
     <swiper-item class='swiperItem_1'>
-      <image src='/images/lbj_1.jpeg'></image>
+      <image src='/images/lbj_1.jpeg' data-postId="1"></image>
     </swiper-item>
     <swiper-item class='swiperItem_2'>
-      <image src='/images/lbj_2.jpeg'></image>
+      <image src='/images/lbj_2.jpeg' data-postId="0"></image>
     </swiper-item>
   </swiper>
   

@@ -32,6 +32,13 @@ Page({
     })
 
 
+  },
+  onSwiperTap:function(event){
+    var postid = event.target.dataset.postid;
+
+    wx.navigateTo({
+      url: 'post-detail/post-detail?id=' + postid,
+    })
   }
 
 
