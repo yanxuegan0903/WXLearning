@@ -1,6 +1,6 @@
 <view class='detail-container'>
-  <image  class='detail-image' src='{{postData.headImgSrc}}'></image>
-  <image class='detail-music' src='/images/音乐.png'></image>
+  <image  class='detail-image' src='{{playMusicState?postData.music.coverImgUrl:postData.headImgSrc}}'></image>
+  <image class='detail-music' catchtap='onPlayTap' src="{{playMusicState?'/images/暂停.png':'/images/播放.png'}}"></image>
   <view class='detail-icon-name-date'>
     <image class='detail-icon' src='/images/user-icon.png'></image>
     <text  class='detail-name'>{{postData.author}}</text>
@@ -10,7 +10,7 @@
   <text class='detail-title'>{{postData.post_title}}</text>
   <view class='detail-tool'>
     <view class='detail-collection-share'>
-      <image class='detail-share' src='/images/分享.png'></image>
+      <image class='detail-share' catchtap='onShareTap' src='/images/分享.png'></image>
       <image wx:if="{{collected}}" catchtap='onCollectedTap' class='detail-share' src='/images/收藏.png'></image>
       <image wx:else class='detail-share' catchtap='onCollectedTap' src='/images/未收藏.png'></image>
     </view>
