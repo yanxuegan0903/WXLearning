@@ -1,3 +1,4 @@
+@import '../movies-list-stars/movies-list-stars.wxss'; 
 
 
 .movie-detail-container{

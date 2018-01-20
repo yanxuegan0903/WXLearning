@@ -1,9 +1,9 @@
 .movie-detail-start-score{
   display: flex;
   flex-direction: row;
-  margin-top: 0rpx;
-  margin-left: 20rpx;
+  margin-top: 10rpx;
 }
+
 
 .movie-detail-start-score image{
   width: 20rpx;

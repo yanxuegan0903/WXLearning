@@ -1,4 +1,4 @@
-
+<import src='../movies-list-template/movies-list-template.wxml' />
 
 
 <template name='movies-template1'>
@@ -6,5 +6,12 @@
     <text class='item-title'>{{title}}</text>
     <text class='item-go'>{{more}}</text>
     <image class='item-image' src="{{image_go}}"></image>
+  </view>
+  <view class='movie-list'>
+    <block wx:for="{{movies}}">
+      <view class='movie-list-star-pic'>
+        <template is='movies-list-template' data="{{...item}}" />
+      </view>
+    </block>
   </view>
 </template>

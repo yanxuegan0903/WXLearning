@@ -1,6 +1,10 @@
+<import src='../movies-list-stars/movies-list-stars.wxml' /> 
+
+
 <template name='movies-list-template'>
   <view class='movie-detail-container'>
     <image class='movie-detail-pic' src="{{movie_image}}"></image>
     <text class='movie-detail-name'>{{movie_name}}</text>
+    <template is='movies-list-starts' data="{{movie_score}}" />
   </view>
 </template>

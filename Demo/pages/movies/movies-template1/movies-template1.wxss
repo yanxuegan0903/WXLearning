@@ -1,4 +1,4 @@
-
+@import '../movies-list-template/movies-list-template.wxss';
 
 
 .item-container {
@@ -34,4 +34,9 @@
   width: 28rpx;
   height: 28rpx;
   margin-top: 20rpx;
+}
+
+.movie-list {
+  display: flex;
+  flex-direction: row;
 }

@@ -1,18 +1,7 @@
 @import 'movies-template1/movies-template1.wxss';
-@import 'movies-list-template/movies-list-template.wxss';
-@import 'movies-list-stars/movies-list-stars.wxss';
 
 .container {
   display: flex;
   flex-direction: column;
 }
 
-.movie-list {
-  display: flex;
-  flex-direction: row;
-}
-
-.movie-list-star-pic {
-  display: flex;
-  flex-direction: column;
-}
