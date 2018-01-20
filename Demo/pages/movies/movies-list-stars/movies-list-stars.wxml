@@ -1,0 +1,10 @@
+<template name='movies-list-starts'>
+  <view class='movie-detail-start-score'>
+    <image src='/images/星星-黄色.png'></image>
+    <image src='/images/星星-黄色.png'></image>
+    <image src='/images/星星-黄色.png'></image>
+    <image src='/images/星星-黄色.png'></image>
+    <image src='/images/星星-黄色.png'></image>
+    <text class='movie-detail-score'>{{movie_score}}</text>
+  </view>
+</template>

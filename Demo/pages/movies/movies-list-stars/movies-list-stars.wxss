@@ -1,0 +1,19 @@
+.movie-detail-start-score{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0rpx;
+  margin-left: 20rpx;
+}
+
+.movie-detail-start-score image{
+  width: 20rpx;
+  height: 20rpx;
+  vertical-align: middle;
+  margin-top: 5rpx;
+}
+
+
+.movie-detail-score{
+  font-size: 24rpx;
+  margin-left: 20rpx;
+}

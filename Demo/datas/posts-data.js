@@ -55,19 +55,19 @@ var local_movies = [
     "image_go": "/images/箭头.png",
     "movies": [
       {
-        "movie_name": "你的名字",
-        "movie_image": "/images/你的名字.jpg",
-        "movie_score": "8.7"
+        "movie_name": "机器人9号",
+        "movie_image": "http://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p494268647.webp",
+        "movie_score": "7.4"
       },
       {
-        "movie_name": "血战钢锯岭",
-        "movie_image": "/images/血战钢锯岭.jpg",
-        "movie_score": "8.5"
+        "movie_name": "三傻大闹宝莱坞",
+        "movie_image": "http://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p13628.webp",
+        "movie_score": "9.1"
       },
       {
-        "movie_name": "神奇动物在哪里",
-        "movie_image": "/images/神奇动物在哪里.jpg",
-        "movie_score": "8.1"
+        "movie_name": "人再囧途之泰囧",
+        "movie_image": "http://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p43738.webp",
+        "movie_score": "9.2"
       }
     ]
 
@@ -78,19 +78,19 @@ var local_movies = [
     "image_go": "/images/箭头.png",
     "movies": [
       {
-        "movie_name": "神探蒲松龄",
-        "movie_image": "/images/神探蒲松龄.jpg",
-        "movie_score": "8.5"
+        "movie_name": "大话西游之大圣娶亲",
+        "movie_image": "http://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2455050536.webp",
+        "movie_score": "7.4"
       },
       {
-        "movie_name": "28岁未成年",
-        "movie_image": "/images/28岁未成年.jpg",
-        "movie_score": "8.2"
+        "movie_name": "人在囧途",
+        "movie_image": "http://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p500548437.webp",
+        "movie_score": "8.9"
       },
       {
-        "movie_name": "萨利机长",
-        "movie_image": "/images/萨利机长.jpg",
-        "movie_score": "0.0"
+        "movie_name": "大话西游之月光宝盒",
+        "movie_image": "http://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p1280323646.webp",
+        "movie_score": "8.7"
       }
     ]
   },
@@ -100,19 +100,41 @@ var local_movies = [
     "image_go": "/images/箭头.png",
     "movies": [
       {
-        "movie_name": "神探蒲松龄",
-        "movie_image": "/images/神探蒲松龄.jpg",
-        "movie_score": "8.5"
+        "movie_name": "让子弹飞",
+        "movie_image": "http://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p1512562287.webp",
+        "movie_score": "7.0"
       },
       {
-        "movie_name": "28岁未成年",
-        "movie_image": "/images/28岁未成年.jpg",
-        "movie_score": "8.2"
+        "movie_name": "羞羞的铁拳",
+        "movie_image": "http://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2499793218.webp",
+        "movie_score": "8.4"
       },
       {
-        "movie_name": "萨利机长",
-        "movie_image": "/images/萨利机长.jpg",
-        "movie_score": "0.0"
+        "movie_name": "唐伯虎点秋香",
+        "movie_image": "http://img7.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p1946455272.webp",
+        "movie_score": "7.4"
+      }
+    ]
+  },
+  {
+    "title": "内地榜",
+    "more": "更多",
+    "image_go": "/images/箭头.png",
+    "movies": [
+      {
+        "movie_name": "夏洛特烦恼",
+        "movie_image": "http://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p1356510694.28.webp",
+        "movie_score": "7.1"
+      },
+      {
+        "movie_name": "西游降魔篇",
+        "movie_image": "http://img7.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p28063.webp",
+        "movie_score": "6.8"
+      },
+      {
+        "movie_name": "美人鱼",
+        "movie_image": "http://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2316177058.webp",
+        "movie_score": "8.9"
       }
     ]
   }
