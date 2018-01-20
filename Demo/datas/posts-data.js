@@ -50,19 +50,71 @@ var local_database = [
 
 var local_movies = [
   {
-    "title":"正在热映",
-    "more":"更多",
-    "image_go":"/images/箭头.png"
+    "title": "正在热映",
+    "more": "更多",
+    "image_go": "/images/箭头.png",
+    "movies": [
+      {
+        "movie_name": "你的名字",
+        "movie_image": "/images/你的名字.jpg",
+        "movie_score": "8.7"
+      },
+      {
+        "movie_name": "血战钢锯岭",
+        "movie_image": "/images/血战钢锯岭.jpg",
+        "movie_score": "8.5"
+      },
+      {
+        "movie_name": "神奇动物在哪里",
+        "movie_image": "/images/神奇动物在哪里.jpg",
+        "movie_score": "8.1"
+      }
+    ]
+
   },
   {
     "title": "即将上映",
     "more": "更多",
-    "image_go": "/images/箭头.png"
+    "image_go": "/images/箭头.png",
+    "movies": [
+      {
+        "movie_name": "神探蒲松龄",
+        "movie_image": "/images/神探蒲松龄.jpg",
+        "movie_score": "8.5"
+      },
+      {
+        "movie_name": "28岁未成年",
+        "movie_image": "/images/28岁未成年.jpg",
+        "movie_score": "8.2"
+      },
+      {
+        "movie_name": "萨利机长",
+        "movie_image": "/images/萨利机长.jpg",
+        "movie_score": "0.0"
+      }
+    ]
   },
   {
     "title": "全球榜",
     "more": "更多",
-    "image_go": "/images/箭头.png"
+    "image_go": "/images/箭头.png",
+    "movies": [
+      {
+        "movie_name": "神探蒲松龄",
+        "movie_image": "/images/神探蒲松龄.jpg",
+        "movie_score": "8.5"
+      },
+      {
+        "movie_name": "28岁未成年",
+        "movie_image": "/images/28岁未成年.jpg",
+        "movie_score": "8.2"
+      },
+      {
+        "movie_name": "萨利机长",
+        "movie_image": "/images/萨利机长.jpg",
+        "movie_score": "0.0"
+      }
+    ]
   }
 ];
 

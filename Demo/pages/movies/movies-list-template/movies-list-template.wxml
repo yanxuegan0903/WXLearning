@@ -1,0 +1,14 @@
+<template name='movies-list-template'>
+  <view class='movie-detail-container'>
+    <image class='movie-detail-pic' src="{{movie_image}}"></image>
+    <text class='movie-detail-name'>{{movie_name}}</text>
+    <view class='movie-detail-start-score'>
+      <image class='movie-detail-star' src='/images/星星-黄色.png'></image>
+      <image class='movie-detail-star' src='/images/星星-黄色.png'></image>
+      <image class='movie-detail-star' src='/images/星星-黄色.png'></image>
+      <image class='movie-detail-star' src='/images/星星-黄色.png'></image>
+      <image class='movie-detail-star' src='/images/星星-黄色.png'></image>
+      <text class='movie-detail-score'>{{movie_score}}</text>
+    </view>
+  </view>
+</template>

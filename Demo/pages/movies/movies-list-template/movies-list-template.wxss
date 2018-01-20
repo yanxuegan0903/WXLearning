@@ -1,0 +1,33 @@
+.movie-detail-container{
+  display: flex;
+  flex-direction: column;
+  margin: 10rpx 7rpx 20rpx 20rpx; 
+}
+
+.movie-detail-pic{
+  width: 220rpx;
+  height: 300rpx;
+  margin-bottom: 20rpx;
+}
+
+.movie-detail-name{
+  font-size: 28rpx;
+}
+
+.movie-detail-start-score{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+}
+
+.movie-detail-star{
+  width: 20rpx;
+  height: 20rpx;
+  vertical-align: middle;
+  margin-top: 5rpx;
+}
+
+.movie-detail-score{
+  font-size: 24rpx;
+  margin-left: 20rpx;
+}

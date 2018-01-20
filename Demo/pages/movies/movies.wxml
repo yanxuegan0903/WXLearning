@@ -1,4 +1,5 @@
 <import src='movies-template1/movies-template1.wxml' />
+<import src='movies-list-template/movies-list-template.wxml' />
 
 
 
@@ -7,6 +8,11 @@
 
   <block wx:for="{{local_movies}}">
     <template is='movies-template1' data="{{...item}}" />
+    <view class='movie-list'>
+      <block wx:for="{{item.movies}}">
+        <template is='movies-list-template' data="{{...item}}" />
+      </block>
+    </view>
   </block>
 
 

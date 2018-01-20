@@ -1,11 +1,10 @@
 .item-container {
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid #ededed;
   border-top: 1px solid #ededed;
   margin-top: 5px;
   margin-bottom: 5px;
-  padding-left: 5px;
+  padding-left: 20rpx;
   padding-right: 5px;
   vertical-align: middle;
 }
