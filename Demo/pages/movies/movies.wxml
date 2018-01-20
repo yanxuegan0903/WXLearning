@@ -1,13 +1,12 @@
+<import src='movies-template1/movies-template1.wxml' />
+
+
+
 <view class='container'>
 
 
   <block wx:for="{{local_movies}}">
-    <view class='item-container'>
-      <text class='item-title'>{{item.title}}</text>
-      <text class='item-go'>{{item.more}}</text>
-      <image class='item-image' src="{{item.image_go}}"></image>
-    </view>
-
+    <template is='movies-template1' data="{{...item}}" />
   </block>
 
 

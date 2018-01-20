@@ -1,0 +1,7 @@
+<template name='movies-template1'>
+  <view class='item-container'>
+    <text class='item-title'>{{title}}</text>
+    <text class='item-go'>{{more}}</text>
+    <image class='item-image' src="{{image_go}}"></image>
+  </view>
+</template>
