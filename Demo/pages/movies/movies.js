@@ -1,5 +1,8 @@
 var postData = require("../../datas/posts-data.js")
 
+// RESTFul Json
+// SOAP XML
+
 Page({
 
   /**
@@ -14,60 +17,32 @@ Page({
    */
   onLoad: function (options) {
 
-    var local_movies = postData.local_movies;
-    console.log(local_movies);
+
+    var top250 = postData.top250
+    var coming_soon = postData.coming_soon
+    var in_theaters = postData.in_theaters
+
+    var local_movies = {
+      'in_theaters':in_theaters,
+      'coming_soon':coming_soon,
+      'top250':top250
+    }
+    console.log('local_movies =')
+
+    console.log(local_movies)
+
 
     this.setData({
       local_movies: local_movies,
     });
+
+
+
+
+
+
+
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-    
-  },
 
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-    
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-    
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-    
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-    
-  }
 })

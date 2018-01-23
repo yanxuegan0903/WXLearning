@@ -3,8 +3,8 @@
 
 <template name='movies-list-template'>
   <view class='movie-detail-container'>
-    <image class='movie-detail-pic' src="{{movie_image}}"></image>
-    <text class='movie-detail-name'>{{movie_name}}</text>
-    <template is='movies-list-starts' data="{{movie_score}}" />
+    <image class='movie-detail-pic' src="{{images.large}}"></image>
+    <text class='movie-detail-name'>{{title}}</text>
+    <template is='movies-list-starts' data="{{rating}}" />
   </view>
 </template>

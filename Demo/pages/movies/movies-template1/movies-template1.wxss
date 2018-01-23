@@ -12,6 +12,11 @@
   vertical-align: middle;
 }
 
+.inner-container{
+  /* 里面元素作为整体 左右居中 */
+  margin: 0 auto 20rpx;
+}
+
 .item-title {
   margin-top: 5px;
   font-size: 24rpx;
@@ -21,16 +26,19 @@
 .item-go {
   position: absolute;
   float: right;
-  right: 50rpx;
+  right: 35rpx;
   margin-top: 5px;
   font-size: 26rpx;
   line-height: 50rpx;
 }
 
 .item-image {
+
+  /* justify-content: space-between; 内部元素的布局方式   内部元素使用 vertical-align: middle;
+  失效*/
   position: absolute;
   float: right;
-  right: 25rpx;
+  right: 5rpx;
   width: 28rpx;
   height: 28rpx;
   margin-top: 20rpx;

@@ -1,10 +1,15 @@
 <template name='movies-list-starts'>
   <view class='movie-detail-start-score'>
-    <image src='/images/星星-黄色.png'></image>
-    <image src='/images/星星-黄色.png'></image>
-    <image src='/images/星星-黄色.png'></image>
-    <image src='/images/星星-黄色.png'></image>
-    <image src='/images/星星-黄色.png'></image>
-    <text class='movie-detail-score'>{{movie_score}}</text>
+    <image wx:if="{{rating.average >=2.0}}" src='/images/星星-黄色.png'></image>
+    <image wx:else src='/images/星星-灰色.png'></image>
+    <image wx:if="{{rating.average >=4.0}}" src='/images/星星-黄色.png'></image>
+    <image wx:else src='/images/星星-灰色.png'></image>
+    <image wx:if="{{rating.average >=6.0}}" src='/images/星星-黄色.png'></image>
+    <image wx:else src='/images/星星-灰色.png'></image>
+    <image wx:if="{{rating.average >=8.0}}" src='/images/星星-黄色.png'></image>
+    <image wx:else src='/images/星星-灰色.png'></image>
+    <image wx:if="{{rating.average >=9.0}}" src='/images/星星-黄色.png'></image>
+    <image wx:else src='/images/星星-灰色.png'></image>
+    <text class='movie-detail-score'>{{rating.average}}</text>
   </view>
 </template>
